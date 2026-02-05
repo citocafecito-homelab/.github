@@ -1,6 +1,6 @@
 # ☕ Citocafecito Homelab
 
-## "Infraestructura de código abierto, cosechada grano a grano."
+> "Infraestructura de código abierto, cosechada grano a grano."
 
 Bienvenido a la organización Citocafecito. Este es un espacio de experimentación, autoservicio (self-hosting) y automatización donde gestionamos servidores como granos de especialidad: con precisión, técnica y mucha pasión.
 
