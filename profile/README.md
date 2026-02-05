@@ -8,7 +8,7 @@ Bienvenido a la organización Citocafecito. Este es un espacio de experimentaci�
 
 Nuestros repositorios son públicos porque creemos en el conocimiento compartido. Eres libre de explorar, hacer fork, comentar o proponer mejoras mediante Pull Requests.
 
-## 🍒 Varietales de Nodos (Estado del Cluster)
+## ⚓ Estado del Cluster
 
 | Estado    | Nodo | Variedad | Función |
 |----------|:--------------:|--------------------:|---------:|
