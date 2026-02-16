@@ -12,8 +12,32 @@ Nuestros repositorios son públicos porque creemos en el conocimiento compartido
 
 | Estado    | Nodo | Variedad | Función |
 |----------|:--------------:|--------------------:|---------:|
-| Activo    | Caturra 🍒 | Plano de Control | Master |
+| Activo    | Caturra 🍒 | Plano de Control | Control Plane |
 | Activo    | Catuai 🌿 | Domótica y Automatizaciones | Worker  |
-| Progreso    | Castillo ✨ | Habi* Services | Worker |
+| Activo    | Castillo ✨ | Habi* Services | Worker |
+
+```mermaid
+graph TD
+    %% Nodo Maestro
+    subgraph Control_Plane ["Control Plane"]
+        Caturra["<b>Caturra 🍒</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N4000<br/><b>RAM:</b> 8GB DDR4<br/><b>DISK:</b> 256GB SSD"]
+    end
+
+    %% Conexiones
+    Caturra --> Catuai
+    Caturra --> Castillo
+
+    %% Nodos Workers
+    subgraph Workers ["Workers"]
+        Catuai["<b>Catuai 🌿</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N100<br/><b>RAM:</b> 12GB LPDDR5<br/><b>DISK:</b> 256GB SSD<br/><i>Domótica y Automatizaciones</i>"]
+        
+        Castillo["<b>Castillo ✨</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel i5-15450HK<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 512GB NVMe<br/><i>Habi* Services</i>"]
+    end
+
+    %% Estilos de Estado (Todos Activos)
+    style Caturra fill:#1a1a1a,stroke:#4CAF50,stroke-width:2px,color:#fff
+    style Catuai fill:#1a1a1a,stroke:#4CAF50,stroke-width:2px,color:#fff
+    style Castillo fill:#1a1a1a,stroke:#4CAF50,stroke-width:2px,color:#fff
+```
 
 > Cualquiera es bienvenido a contribuir o utilizar nuestro contenido como base para sus propios proyectos de Homelab.
