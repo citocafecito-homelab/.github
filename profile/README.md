@@ -29,9 +29,9 @@ graph TD
 
     %% Nodos Workers
     subgraph Workers ["Workers"]
-        Catuai["<b>Catuai 🌿</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N100<br/><b>RAM:</b> 12GB LPDDR5<br/><b>DISK:</b> 256GB SSD<br/><i>Domótica y Automatizaciones</i>"]
+        Catuai["<b>Catuai 🌿</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N100<br/><b>RAM:</b> 12GB LPDDR5<br/><b>DISK:</b> 256GB SSD"]
         
-        Castillo["<b>Castillo ✨</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel i5-15450HK<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 512GB NVMe<br/><i>Habi* Services</i>"]
+        Castillo["<b>Castillo ✨</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel i5-15450HK<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 512GB NVMe"]
     end
 
     %% Estilos de Estado (Todos Activos)
