@@ -12,25 +12,24 @@ Nuestros repositorios son públicos porque creemos en el conocimiento compartido
 
 | Estado    | Nodo | Variedad | Función |
 |----------|:--------------:|--------------------:|---------:|
-| Activo    | Caturra 🍒 | Plano de Control | Control Plane |
-| Activo    | Catuai 🌿 | Domótica y Automatizaciones | Worker  |
+| Activo    | Catuai 🌿 | Domótica y Automatizaciones | Control Plane |
+| Activo    | Caturra 🍒 | Plano de Control |  Worker  |
 | Activo    | Castillo ✨ | Habi* Services | Worker |
 
 ```mermaid
 graph TD
     %% Nodo Maestro
     subgraph Control_Plane ["Control Plane"]
-        Caturra["<b>Caturra 🍒</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N4000<br/><b>RAM:</b> 8GB DDR4<br/><b>DISK:</b> 256GB SSD"]
+        Catuai["<b>Catuai 🌿</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N100<br/><b>RAM:</b> 12GB LPDDR5<br/><b>DISK:</b> 256GB SSD"]
     end
 
     %% Conexiones
-    Caturra --> Catuai
-    Caturra --> Castillo
+    Catuai --> Caturra
+    Catuai --> Castillo
 
     %% Nodos Workers
     subgraph Workers ["Workers"]
-        Catuai["<b>Catuai 🌿</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N100<br/><b>RAM:</b> 12GB LPDDR5<br/><b>DISK:</b> 256GB SSD"]
-        
+        Caturra["<b>Caturra 🍒</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N4000<br/><b>RAM:</b> 8GB DDR4<br/><b>DISK:</b> 256GB SSD"]
         Castillo["<b>Castillo ✨</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel i5-15450HK<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 512GB NVMe"]
     end
 
