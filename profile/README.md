@@ -12,8 +12,8 @@ Nuestros repositorios son públicos porque creemos en el conocimiento compartido
 
 | Estado    | Nodo | Variedad | Función |
 |----------|:--------------:|--------------------:|---------:|
-| Activo    | Catuai 🌿 | Domótica y Automatizaciones | Control Plane |
-| Activo    | Caturra 🍒 | Plano de Control |  Worker  |
+| Activo    | Catuai 🌿 | Plano de Control | Control Plane |
+| Activo    | Caturra 🍒 | Domótica y Automatizaciones |  Worker  |
 | Activo    | Castillo ✨ | Habi* Services | Worker |
 
 ```mermaid
