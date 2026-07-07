@@ -14,8 +14,8 @@ Nuestros repositorios son públicos porque creemos en el conocimiento compartido
 |----------|:--------------:|--------------------:|---------:|
 | Activo    | Catuai 🌿 | Plano de Control | Control Plane |
 | Activo    | Caturra 🍒 | Domótica y Automatizaciones |  Worker  |
-| Activo    | Castillo ✨ | Habi* Services | Worker |
-| Activo    | Catimore 🪵 | Multimedia y Servidores *arr | Worker |
+| Activo    | Castillo ✨ | Habiflix & Media Management | Worker |
+| Activo    | Catimore 🪵 | Multimedia y Servicios *arr | Worker |
 
 ```mermaid
 graph TD
@@ -33,7 +33,7 @@ graph TD
     subgraph Workers ["Workers"]
         Caturra["<b>Caturra 🍒</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N4000<br/><b>RAM:</b> 8GB DDR4<br/><b>DISK:</b> 256GB SSD"]
         Castillo["<b>Castillo ✨</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel i5-15450HK<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 512GB NVMe"]
-        Catimore["<b>Catimore 🪵</b><br/>Estado: Activo<hr/><b>CPU:</b> AMD Ryzen 5500U<br/><b>RAM:</b> 4GB Dual Channel<br/><b>DISK:</b> 256GB NVMe<b>Servicios:</b> HabiPics, HabiMusic, *arr (Sonarr, Radarr, Lidarr, Bazarr.)"]
+        Catimore["<b>Catimore 🪵</b><br/>Estado: Activo<hr/><b>CPU:</b> AMD Ryzen 5500U<br/><b>RAM:</b> 4GB Dual Channel<br/><b>DISK:</b> 256GB NVMe"]
     end
 
     %% Estilos de Estado (Todos Activos)
