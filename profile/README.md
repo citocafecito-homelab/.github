@@ -55,7 +55,7 @@ graph TD
     subgraph Workers ["Workers"]
         Caturra["<b>Caturra 🍒</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel N4000<br/><b>RAM:</b> 8GB DDR4<br/><b>DISK:</b> 256GB SSD"]
         Castillo["<b>Castillo ✨</b><br/>Estado: Activo<hr/><b>CPU:</b> Intel i5-15450HK<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 512GB NVMe"]
-        Catimore["<b>Catimore 🪵</b><br/>Estado: Activo<hr/><b>CPU:</b> AMD Ryzen 5500U<br/><b>RAM:</b> 4GB Dual Channel<br/><b>DISK:</b> 256GB NVMe"]
+        Catimore["<b>Catimore 🪵</b><br/>Estado: Activo<hr/><b>CPU:</b> AMD Ryzen 3500U<br/><b>RAM:</b> 16GB Dual Channel<br/><b>DISK:</b> 256GB NVMe"]
     end
 
     %% Estilos de Estado (Todos Activos)
